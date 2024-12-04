@@ -4,7 +4,7 @@
         '' => 'List',
     ]" />
     <div class="flex justify-between mt-1">
-        <div class="font-bold text-3xl">Books</div>
+        <div class="font-bold text-3xl">Members</div>
         <div>
             {{ $data }}
         </div>

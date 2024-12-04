@@ -59,9 +59,6 @@ class MemberResource extends Resource
                 Tables\Columns\TextColumn::make('phone')
                     ->label('Nomor Telepon')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('created_at')
-                    ->label('Tanggal Bergabung')
-                    ->dateTime(),
             ])
             ->filters([
                 //
